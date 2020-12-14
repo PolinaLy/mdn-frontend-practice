@@ -12,3 +12,11 @@ html {
   li {
     margin-left: 20px;
   }
+  
+.list {
+  text-decoration: underline;
+}
+
+code {
+  font-weight: bold;
+}
