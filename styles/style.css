@@ -1,57 +1,89 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
+/*All HTML text*/
 html {
     background-color:white;
     font-size: 20px;
     font-family: 'Karla', sans-serif;
     text-align: center;
-  }
-  
-  ul {
-    background: rgb(238, 195, 195);
-    padding: 10px;
-    border: 1px solid black;
-    list-style-type: none;
-  }
-  
-  li {
-    margin-left: 20px;
-  }
-  
-.list {
-  text-decoration: underline;
 }
 
-code {
-  font-weight: bold;
-}
-
+/*MDN Frontend Practice*/
 header h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 45px;
   padding-top: 0;
 }
 
-nav h2 {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 28px;
-}
-
+/*Page headers*/
 header h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 33px;
 }
 
+/*All paragraphs*/
 p {
   text-align: left;
+  max-width: 70vw;
+  margin: auto;
+  padding-bottom: 7;
 }
 
+blockquote {
+  padding: 3%;
+  padding-bottom: 5%;
+}
+
+li blockquote {
+  padding: 0;
+}
+
+/*Unordered list*/
+ul {
+  background: rgb(238, 195, 195);
+  padding: 10px;
+  border: 1px solid black;
+  list-style-type: none;
+}
+  
+/*List element*/
+li {
+  margin-left: 20px;
+}
+
+/*Class= list*/
+.list {
+  text-decoration: underline;
+}
+
+/*In-text code*/
+code {
+  font-weight: bold;
+}
+
+/*Navigation bar*/
 nav {
   padding: 3%;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
 }
 
+/*the You Are Here menu*/
+nav h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+/*Nav bar links*/
+a {
+  text-decoration: none;
+}
+
+/*Footer*/
 footer {
   font-size: 15px;
 }
